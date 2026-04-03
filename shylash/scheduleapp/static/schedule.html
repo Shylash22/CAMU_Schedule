@@ -1,159 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>College Timetable</title>
+    <title>Slot Time Table - Shylash.A (25018785)</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f6f9;
+        header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: #04d7eb;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 15px;
+            font-size: 22px;
         }
 
-     
-        .header {
-            background-color: rgb(89, 167, 215);
+        body {
+            text-align: center;
+        }
+
+        img {
+            margin: 15px 0;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #06cbea;
             color: white;
             text-align: center;
             padding: 10px;
-            font-weight: bold;
         }
-
-     
-        .container {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .college-name {
-            font-size: 22px;
-            font-weight: bold;
-        }
-
-        .student-name {
-            margin-top: 5px;
-            color: #b52020;
-        }
-
-       
-        table {
-            margin: 20px auto;
-            border-collapse: collapse;
-            width: 80%;
-            background-color: white;
-        }
-
-        th, td {
-            border: 1px solid #999;
-            padding: 10px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #dff0d8;
-        }
-
-        td {
-            background-color: #f9f9f9;
-        }
-
-        
-        .subjects {
-            width: 60%;
-        }
-
-        .footer {
-            background-color: rgb(45, 214, 104);
-            height: 20px;
-            text-align: center;
-        }                                                               
     </style>
 </head>
 
 <body>
 
-    <div class="header">
-         <img src="sec-logo-01as.png" height="100" width="600">
-          CAMU Schedule
-    </div>
+<header>
+    SLOT TIME TABLE
+</header>
 
-    <div class="container">
-        
-        <div class="college-name">Saveetha Engineering college</div>
-        <div class="student-name">Shylash.A(25018785)</div>
+<img src="sec-logo-01as.png" height="120" width="500">
 
-   
-        <table>
-            <tr>
-                <th>Time</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-            </tr>
+<h2>Saveetha Engineering College</h2>
+<h3>Shylash.A (25018785)</h3>
 
-            <tr>
-                <td>9-10</td>
-                <td>Math</td>
-                <td>Physics</td>
-                <td>WAD</td>
-                <td>CDS</td>
-                <td>Free</td>
-            </tr>
+<table class="table table-bordered table-hover table-striped">
+    <caption><b>CLASS TIME TABLE</b></caption>
 
-            <tr>
-                <td>10-11</td>
-                <td>WAD</td>
-                <td>Math</td>
-                <td>CDS</td>
-                <td>Physics</td>
-                <td>Lab</td>
-            </tr>
+    <tr class="bg-success">
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
 
-            <tr>
-                <td>11-12</td>
-                <td>CDS</td>
-                <td>WAD</td>
-                <td>Math</td>
-                <td>Lab</td>
-                <td>Physics</td>
-            </tr>
-        </table>
+    <tr>
+        <th>9-10</th>
+        <td>Math</td>
+        <td>Physics</td>
+        <td>WAD</td>
+        <td>CDS</td>
+        <td>Free</td>
+    </tr>
 
-      
-        <h3>Subjects</h3>
+    <tr>
+        <th>10-11</th>
+        <td>WAD</td>
+        <td>Math</td>
+        <td>CDS</td>
+        <td>Physics</td>
+        <td>Lab</td>
+    </tr>
 
-        <table class="subjects">
-            <tr>
-                <th>S.No</th>
-                <th>Subject Code</th>
-                <th>Subject Name</th>
-            </tr>
+    <tr>
+        <th>11-12</th>
+        <td>CDS</td>
+        <td>WAD</td>
+        <td>Math</td>
+        <td>Lab</td>
+        <td>Physics</td>
+    </tr>
 
-            <tr>
-                <td>1</td>
-                <td>CS101</td>
-                <td>Mathematics</td>
-            </tr>
+</table>
 
-            <tr>
-                <td>2</td>
-                <td>CS102</td>
-                <td>Web Application Development</td>
-            </tr>
+<br>
 
-            <tr>
-                <td>3</td>
-                <td>CS103</td>
-                <td>Career Development Skills</td>
-            </tr>
-        </table>
+<h3>SUBJECT</h3>
 
-    </div>
+<table class="table table-bordered table-striped" style="width:60%">
+    <tr class="bg-primary">
+        <th>S.No</th>
+        <th>Subject Code</th>
+        <th>Subject Name</th>
+    </tr>
 
-    <div class="footer">Shylash.A (250418785)</div>
+    <tr>
+        <td>1</td>
+        <td>CS101</td>
+        <td>Mathematics</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>CS102</td>
+        <td>Web Application Development (WAD)</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>CS103</td>
+        <td>Career Development Skills (CDS)</td>
+    </tr>
+</table>
+
+<footer>
+    Designed by Shylash.A - 25018785
+</footer>
 
 </body>
 </html>
